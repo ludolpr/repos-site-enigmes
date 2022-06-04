@@ -1,0 +1,22 @@
+{
+  "name": "repos-site-enigmes",
+  "version": "1.0.0",
+  "description": "mon site perso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludolpr/repos-site-enigmes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludolpr/repos-site-enigmes/issues"
+  },
+  "homepage": "https://github.com/ludolpr/repos-site-enigmes#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

@@ -1,0 +1,10 @@
+// couleur de texte selon l'opacité
+@function set-text-color($primary){
+    @if (lightness($primary) > 40){
+        @return #000;
+    }
+    @else{
+        @return #fff;
+    }
+}
+
