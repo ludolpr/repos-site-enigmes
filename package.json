@@ -1,3 +1,4 @@
+// détails de tous les packages npm
 {
   "name": "repos-site-enigmes",
   "version": "1.0.0",
@@ -10,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ludolpr/repos-site-enigmes.git"
   },
-  "author": "",
+  "author": "ludolpr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ludolpr/repos-site-enigmes/issues"

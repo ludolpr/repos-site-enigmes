@@ -9,6 +9,7 @@ const {
     engine
 } = require('express-Handlebars');
 const app = express();
+res.send('ludolpr projet');
 
 // config handlebars
 app.engine('.hbs', engine({
