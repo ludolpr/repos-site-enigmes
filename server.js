@@ -4,7 +4,7 @@ console.log('ludolpr console log');
 
 // import module global
 
-const express = require ('express');
+const express = require('express');
 const {
     engine
 } = require('express-Handlebars');
@@ -13,19 +13,18 @@ const app = express();
 // config handlebars
 app.engine('.hbs', engine({
     extname: '.hbs'
-
 }));
 app.set('views engine', '.hbs');
 app.set('views', './views');
 
 // route fichier static
-app.use('/assets', express.static('public'));
+app.use('/assets', express.static('public'))
 
 // router
-app.get('/', function (req,res){
+app.get('/', function (req,res) {
     res.render('home')
-});
-app.get('/contact', function(req,res){
+})
+app.get('/contact', function (req,res) {
     res.render('contact')
 });
 
