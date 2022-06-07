@@ -1,6 +1,6 @@
 {{!-- main page --}}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,13 @@
     <script src="https://kit.fontawesome.com/40e3698765.js" crossorigin="anonymous"></script>
     <title>Enigma-Tic</title>
 </head>
-<body>
+<body class="bg-primary">
     {{> navbar }}
+    
     {{{body}}}
+    {{>home/hautPage}}
+    {{>home/sousImage}}
+    {{> footer}}
     <!-- script de js -->
   <script src="/assets/js/index.js"></script>
 </body>

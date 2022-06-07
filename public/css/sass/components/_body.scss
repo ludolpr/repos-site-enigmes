@@ -1,16 +1,9 @@
 body{
     height: 100vh;
     font-family: sans-serif;
-    margin-top: 55px;
-    background-color: $primary-color;
+    margin-top: toRem(57); 
 }
 
-.disable{
-    cursor: default;
-    pointer-events: none;        
-    text-decoration: none;
-}
 
-    
-    
-    
+
+
