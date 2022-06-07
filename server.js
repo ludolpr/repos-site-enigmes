@@ -7,15 +7,15 @@ console.log('ludolpr console log');
 const express = require('express');
 const {
     engine
-} = require('express-Handlebars');
+} = require('express-handlebars');
 const app = express();
-res.send('ludolpr projet');
+
 
 // config handlebars
 app.engine('.hbs', engine({
     extname: '.hbs'
 }));
-app.set('views engine', '.hbs');
+app.set('view engine', '.hbs');
 app.set('views', './views');
 
 // route fichier static
@@ -24,6 +24,7 @@ app.use('/assets', express.static('public'))
 // router
 app.get('/', function (req,res) {
     res.render('home')
+   
 })
 app.get('/contact', function (req,res) {
     res.render('contact')
@@ -31,7 +32,7 @@ app.get('/contact', function (req,res) {
 
 
 // run server
-app.listen(3000);
+app.listen(1990);
 
 
 
@@ -58,3 +59,24 @@ app.listen(3000);
 // working group ===	groupe de travail
 // assertion failure ===	échec d'affirmation
 
+
+
+// Note de configuration possible   
+
+// var http = require('http');
+ 
+// var serv = http.createServer( //création d'un serveur web
+ 
+//   function (req, res) { //callback sur les requêtes HTTP
+//       //construction d'une réponse HTTP
+//       res.writeHead(200, {'Content-Type': 'text/plain'});
+//       res.write('Hello world !');
+ 
+//       res.end(); //envoi de la réponse
+//   }
+ 
+// );
+ 
+// serv.listen(8000); //commence à accepter les requêtes
+ 
+// console.log("Server running at http://localhost:8000");
