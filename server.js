@@ -30,6 +30,10 @@ app.get('/contact', function (req,res) {
     res.render('contact')
 });
 
+app.get('/proposer', function (req,res) {
+    res.render('proposer')
+});
+
 
 // run server
 app.listen(1990);

@@ -1,0 +1,39 @@
+@media (max-width: 1024px){
+  nav{
+      height: 57px;
+      font-size: 12px;
+  }
+  nav li {
+      text-align: center;
+  }  
+  nav a {
+      text-align: center;
+      display: flex;
+      
+  }
+  .navbar{
+    height: 70px;
+    display: flex;
+}
+  .navbar a{
+      justify-content: center;
+      display: flex;
+  }
+}
+
+@media (max-width: 768px){
+    .bg-locked{
+        width: auto;
+    }
+   }    
+   @media (max-width: 425px){
+    .bg-locked{
+        width: auto;
+    }
+   .container-fluid .nav-link{
+       background-color: #d47800;
+   }
+   .navbar{
+       height: auto;
+   }
+   }  
