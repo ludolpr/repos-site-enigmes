@@ -9283,11 +9283,20 @@ body, button, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   background: #212529;
   color: #fff; }
 
+html, body {
+  min-height: 100vh; }
+
 body {
-  min-height: 100vh;
+  position: relative;
   height: 100vh;
   font-family: sans-serif;
   margin-top: 3.5625rem; }
+
+.minht {
+  min-height: 100vh; }
+
+.h-auto {
+  height: auto; }
 
 .bg-locked {
   background-image: url(/assets/images/1_fbf9S1L4M6ieELl4Xxetvg.jpeg);
@@ -9303,6 +9312,9 @@ body {
   transform: rotate(-90deg); }
 
 @media (max-width: 1024px) {
+  button {
+    width: auto; }
+
   nav {
     height: 57px;
     font-size: 12px; }
@@ -9392,5 +9404,12 @@ i {
   --fa-animation-duration: 10s;
   font-size: 25px;
   padding: 5px; }
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  left: 0px; }
 
 /*# sourceMappingURL=style.css.map */

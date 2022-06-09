@@ -1,12 +1,20 @@
-body{
+html,body{
     min-height: 100vh;
+}
+body{
+    position: relative;
     height: 100vh;
     font-family: sans-serif;
     margin-top: toRem(57); 
 }
 
+.minht{
+    min-height: 100vh;
+}
 
-
+.h-auto{
+    height: auto;
+}
 
 
 

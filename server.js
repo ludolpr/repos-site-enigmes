@@ -33,6 +33,9 @@ app.get('/contact', function (req,res) {
 app.get('/proposer', function (req,res) {
     res.render('proposer')
 });
+app.get('/dingbats', function (req,res) {
+    res.render('dingbats')
+});
 
 
 // run server
