@@ -1,14 +1,10 @@
-// Opérateurs
-let yearLudo = 2022-1990;
-console.log(yearLudo);
-
-let year, 
-    yearNuller;
-year = 2022;
-yearBorn = 1990;
-yearNuller = year - yearBorn;
-console.log(yearNuller);
-
-const yearDan = 1872;
-let ageDan = year - yearDan;
-console.log(ageDan);
+// Creer un bouton qui ferme chaque item
+var myNodelist = document.getElementsByTagName("li");
+var i;
+for (i = 0;i <myNodelist.length; i++){
+    var i; 
+    var span =  document.createElement("span");
+    span.className ="close";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);   
+}

@@ -1,0 +1,153 @@
+// // // // // // // // // // // // // // // // // // // // // 
+// var = variable (modifiable)                               //
+// let = (modifiable)                                        //
+// const = constente (on ne peut pas modifier sa valeur)     //
+// // // // // // // // // // // // // // // // // // // // // 
+var lastname = "Leprout" ;
+console.log(lastname);
+
+lastname = "Ludovic";
+console.log(lastname);
+
+let letFirstName = "Leprout";
+let letAge = "32 ans";
+console.log(letFirstName, letAge);
+
+letFisrtName = "LudOvic";
+console.log(letFirstName);
+
+const LeproutFamily = {
+    name: "Ludovic",
+    age: 32
+}
+console.log(LeproutFamily);
+// Modifier l'objet d'une constente
+LeproutFamily.name = "LeProut"  
+console.log(LeproutFamily);
+
+const pizza = ["pâtes","fromage","jambon"]
+console.log(pizza);
+pizza.push("tomate")
+console.log(pizza);
+
+// Types de valeurs
+// Les valeurs primitives :
+
+// String = chaine de caractères
+
+var letFirstName = "Leprout";
+
+// Number = les chiffres ( pas de "double cote" double cote = chaine de caractère )
+
+var age = 32;
+
+// Boulean = false or true
+
+var job = false;
+
+// Undefined = qui n'a pas de valeur/ n'est pas définie.
+var contry;
+
+// Nul = Variable qui n'existe pas
+var email = nul;
+
+// Symbole
+var symbole = symbole();
+
+
+// // // // // / // // 
+// Space zone// // // 
+// // // // // // // 
+
+// Types de références
+// // // // // // // // //
+//          Array       // 
+// // // // // // // // // 
+var date = [1770, 1778, 1985]
+// // // // // // //// // // // // // // // // // // // // //  
+// object litteral ( chaine de caractères ou nombres)
+// // // // // // // // // // // // // // // // // // // // // 
+var LeProut = {
+    name : "ludovic",
+    age: 32
+}
+// // // // // // // // // //// // // // // // // // // //
+// donner la classe d'une variable                      //
+// // // // // // // // // //// // // // // // // // // //
+console.log(typeof Leprout);
+
+
+// // // // // // // // // //
+// Opérateurs               //
+// // // // // // // // // //
+let yearLudo = 2022-1990;
+console.log(yearLudo);
+
+let year, 
+    yearNuller;
+year = 2022;
+yearBorn = 1990;
+yearNuller = year - yearBorn;
+console.log(yearNuller);
+
+const yearDan = 1872;
+let ageDan = year - yearDan;
+console.log(ageDan);
+
+const trois = 3;
+const quatre = 4;
+let total;
+
+total = trois * quatre;
+console.log(total);
+
+
+
+// // // // // // // 
+// Math object// /// 
+// // // // // // 
+console.log(Math.PI);
+console.log(Math.round(10.9));
+Math.round();
+
+console.log(Math.sqrt(9));
+Math.sqrt();
+
+console.log(Math.abs(14.99));
+console.log(Math.ceil(2.1));
+console.log(Math.floor(4.9));
+console.log(Math.min(9,8,7,6,5));
+console.log(Math.max(10,5,4,8,12,15,19,3));
+console.log(Math.random());
+
+// // // // // // // 
+// type coercion //
+// // // // //  //
+
+// // // // // // //
+//  concatène    //
+// // // // //  //
+
+const x = 5 + "5";
+console.log(x);
+
+// // // // // // // //  // //
+// // // multiplie  //  // //
+// const x = 5 * "5";  // //
+// console.log(x); // // // 
+// // // // // // // // // 
+
+const messageWelcome = "bonjour" + "bienvenue !";
+console.log(messageWelcome);
+
+// // // // // // // // // // // // // // // 
+// js prend toujours de gauche à droite   //
+// et s'adapte a ce qu'il vois en premier //
+// // // // // // // // // // // // // // //
+
+
+const z = "Breton" + 3 + 5;
+console.log(z);
+
+const zz = 3 + 5 + "Breton"
+console.log(zz);

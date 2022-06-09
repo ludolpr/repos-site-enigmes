@@ -1,0 +1,81 @@
+// // // // // // // //  // //
+//          part 1          //
+// // // // // // // //  // //
+
+// // // // // // // //  // // // // // // // // // //  // // // //
+// on va additionner des chaine de caractère avec l'opération +  //
+// // // // // // // //  // // // // // // // // // //  // // // //
+
+const firstName = "Ludovic";
+const lastName = "Leprout";
+const age = "32";
+const citation = "Le soleil, la lune , la verité";
+
+let user;
+// user = firstName + lastName + age;
+// user = " je m'appelle " + firstName + " " + lastName + " et j'ai " + age + " ans.";
+console.log(user);
+
+// // // // // // // //  // //
+//          part 2          //
+// // // // // // // //  // //
+
+// // // // // // // //  // // // // // // // // // //  // // // //
+// Les méthodes des chaines de caractères                        //
+// // // // // // // //  // // // // // // // // // //  // // // //
+
+// // // // // // // //  // //
+//      Méthode concat      //
+// // // // // // // //  // //
+
+user = firstName.concat(" ", lastName)
+console.log(user);
+
+// // // // // // // //  // //
+//       part 3:lenght      //
+// // // // // // // //  // //
+user = firstName.length;
+console.log(user);
+
+// // // // // // // //  // //
+//   part 4:ToUpperCase()   //
+// // // // // // // //  // //
+
+user = firstName.toUpperCase();
+user = firstName[1];
+console.log(user);
+
+// // // // // // // //  // //
+//   part 5:endWiths()      //
+// // // // // // // //  // //
+
+user = citation.endsWith("é");
+console.log(user);
+
+// // // // // // // //  // //
+//   part 6:includes()      //
+// // // // // // // //  // //
+
+user = citation.includes("oui");
+console.log(user);
+
+// // // // // // // //  // //
+//   part 7:replace()       //
+// // // // // // // //  // //
+
+user = citation.replace(/lune/g, "enul");
+console.log(user);
+
+// // // // // // // //  // //
+//   part 8:search()        //
+// // // // // // // //  // //
+
+user = citation.search("lune");
+console.log(user);
+
+// // // // // // // //  // //
+//   part 9:split()         //
+// // // // // // // //  // //
+
+user = citation.split(" ");
+console.log(user);

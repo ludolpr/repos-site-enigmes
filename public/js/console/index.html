@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <title>Document</title>
+    <title>Enigma-Tic</title>
 </head>
+
 <body>
-    <h1>mon site d'enigmes</h1>
+    <div class="header">
+        <h1>Ajouter une enigme</h1>
+
+        <input type="text" placeholder="Nom de l'enigme">
+
+        <span onclick="newElement()" class="addBtn">Ajouter</span>
+
+    </div>
+    <ul>
+        <li>Enigme 1</li>
+        <li class="checked">Enigme 2</li>
+        <li>Enigme 3</li>
+        <li>Enigme 4 </li>
+    </ul>
 </body>
+
 </html>
