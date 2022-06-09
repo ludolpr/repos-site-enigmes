@@ -1,9 +1,13 @@
-// // // // // // // //  // //
-//          part 1          //
-// // // // // // // //  // //
+// // // // // // // // // //
+//          part 1         //
+// // // // // // // // // //
 
-// // // // // // // //  // // // // // // //
-// Template literals: Modèles de libellés  //
-// // // // // // // //  // // // // // // //
+// // // // // // // // // // // // // // //
+// Template literals: Modèles de libellés //
+// // // // // // // // // // // // // // //
 
-
+const name = "ludovic";
+const age = 32;
+// il uilise ${maVariable}
+const salut = `youhou ! je m'appelle ${name} ! et j'ai ${age} ans.` 
+console.log(salut);
