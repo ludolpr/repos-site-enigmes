@@ -5,3 +5,106 @@
 // // // // // // // // // // // // // // //
 //          Les Arrays (tableau)          //
 // // // // // // // // // // // // // // //
+
+const number = [1,2,3,4,5];
+console.log(number);
+
+const avengers = ["Thor", "Iron-man","Spider-man", "Hulk"];
+const dc = ["Batman", "Superman", "flash"];
+console.log(avengers);
+
+// // // // // // // // // // // // // // // //
+//          possibilité de                   //
+//      mette un array dans un array         //
+// // // // // // // // // // // // // // // //
+
+const hero = ["Thor", 30, true, {LvLAttack: 20, LvLDefense: 30}, [1,2,3], function() {return "Boum!"}];
+console.log(hero);
+
+// // // // // // // // // // // // // // // //
+//          dans la console du navigateur    //
+// // // // // // // // // // // // // // // //
+
+// hero[3].LvLAttack ==> appelle celui qui est possitionner en [3] et qui se nome  ==>   .LvLAttack
+// hero[5]()  ==> appelle de la fonction
+
+// // // // // // // // // //
+//          part 2         //
+// // // // // // // // // //
+
+// // // // // // // // // // // // // // // //
+//          autre methode                    //
+// // // // // // // // // // // // // // // //
+
+const légumes = new Array ("tomate", "conconbre", "poireau");
+console.log(légumes);
+
+// // // // // // // // // //
+//          .lenght        //
+// // // // // // // // // //
+
+const longeur = number.length;
+console.log(longeur);
+
+// // // // // // // // // //
+//          .indexOf       //
+// // // // // // // // // //
+
+const index = hero.indexOf(true);
+console.log(index);
+
+// // // // // // // // // //
+//          .push()        //
+//   ajoute à la fin       //
+// // // // // // // // // //
+
+avengers.push("Captain Marvel");
+console.log(avengers);
+
+// // // // // // // // // //
+//          .unshift()     //
+//   ajoute au début       //
+// // // // // // // // // //
+
+avengers.unshift("Ant-man");
+console.log(avengers);
+
+// // // // // // // // // //
+//          .pop()         //
+//   suprime le dernier    //
+// // // // // // // // // //
+
+légumes.pop();
+console.log(légumes);
+
+// // // // // // // // // //
+//          .shift()       //
+//   suprime le premier    //
+// // // // // // // // // //
+
+légumes.shift();
+console.log(légumes);
+
+// // // // // // // // // //
+//          .splice()      //
+//       découpage         //
+// // // // // // // // // //
+
+number.splice(1,2,"joris");
+console.log(number);
+
+// // // // // // // // // //
+//          .reverse()     //
+//       inverseur         //
+// // // // // // // // // //
+
+avengers.reverse();
+console.log(avengers);
+
+// // // // // // // // // //
+//          .concat        //
+// fusionne des elements   //
+// // // // // // // // // //
+
+let newHero = avengers.concat(dc);
+console.log(newHero);

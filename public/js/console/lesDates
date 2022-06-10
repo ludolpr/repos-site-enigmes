@@ -1,0 +1,39 @@
+// // // // // // // // // //
+//          part 1         //
+// // // // // // // // // //
+
+// // // // // // // // // // // // // // //
+//          Les Dates                     //
+// // // // // // // // // // // // // // //
+
+const date = new Date();
+console.log(date);
+
+let toDay;
+toDay = date;
+ 
+console.log(`Aujourd'hui nous sommes le ${toDay}`);
+
+let month1 = date.getMonth();
+console.log(month1);
+
+let year = date.getFullYear();
+console.log(year);
+
+let month = new Array ();
+month [0] = "janvier";
+month [1] = "fevrier";
+month [2] = "mars";
+month [3] = "avril";
+month [4] = "mai";
+month [5] = "juin";
+month [6] = "juillet";
+month [7] = "aout";
+month [8] = "septembre";
+month [9] = "octobre";
+month [10] = "novembre";
+month [11] = "decembre";
+
+
+let mois = month[date.getMonth()];
+console.log(mois);

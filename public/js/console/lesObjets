@@ -1,0 +1,60 @@
+// // // // // // // // // //
+//          part 1         //
+// // // // // // // // // //
+
+// // // // // // // // // // // // // // //
+//          Les Objets                    //
+// // // // // // // // // // // // // // //
+
+const user = {
+  firstName: "Brandon",
+  age: 44,
+  adress: {
+    rue: "2 rue de la bombasse",
+    codePostal: 96540,
+    ville: "cocacola-land"
+  },
+  langage: ["français", "Turque", "Chinois"],
+  birthday: function (){
+    return 2022 - this.age
+  }
+
+}
+
+let frsnm = user.birthday();
+
+console.log(frsnm); 
+
+// // // // // // // // // //
+//          part 2         //
+// // // // // // // // // //
+
+// // // // // // // // // // // // // // //
+//          news object()                 //
+// // // // // // // // // // // // // // //
+
+let player = new Object()
+player.name = "John";
+player.game = "CandyCrush"
+
+console.log(player);
+
+// // // // // // // // // // // // // // //
+//              Templating                //
+// // // // // // // // // // // // // // //
+
+const user2 = {
+  firstName: "Christian",
+  age: 30,
+  adress: {
+    rue: "10 rue de la bombasse",
+    codePostal: 96540,
+    ville: "yamamoto"
+  },
+  langage: ["français", "Sousou"],
+  message: function (firstName, age) {
+    console.log(`bonjour je m'appelle ${firstName}, j'ai ${age} ans`);
+  }
+
+}
+console.log(user2.message(user2.firstName,user2.age));
