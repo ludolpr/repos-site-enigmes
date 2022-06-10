@@ -1,0 +1,55 @@
+//*?------------------------ */
+//*?      Les Boucles         //
+//*?------------------------ */
+for (let distanceMarathon = 0; distanceMarathon < 42; distanceMarathon++)
+  console.log(distanceMarathon);
+
+//*?------------------------ */
+//*?      part 2              //
+//*?------------------------ */
+
+let player = ["Chaudard", "Pitivier", "Tassin", "Colonel Blanchet"]
+for (let i = 0; i < 4; i++) {
+  console.log(player[i]);
+}
+
+//*?------------------------ */
+//*?      part 3  + for       //
+//*?------------------------ */
+
+for (let i = 0; i < 4; i++) {
+  if (player[i] === "Pitivier") {
+    console.log(`${player[i]}: j'ai glissé chef !`);
+  }
+}
+//*?------------------------ *//
+//*?      part 4  + while     //
+//*?------------------------ *//
+
+//! let i = 0;
+//! while(i <= 5) 
+//! {
+//!   i++ incrementer i avant fait commencer à 1.
+//!   console.log(i);
+//!   i++;
+//! } 
+
+
+// let fruit = ["pomme", "poire", "banane", "fraise"];
+//   let i0 = 0;
+// while (i <= fruit.length) {
+//   console.log(fruit[i]);
+//   i++;
+// }
+//*?------------------------ //
+//*?      part 5 do+ while     //
+//*?------------------------ //
+let fruits = ["pomme", "poire", "banane", "fraise","franboise"];
+  let i = 0;
+  do {
+    console.log(fruits[i]);
+    i++
+  } 
+  while (
+    i < fruits.lenght
+  )

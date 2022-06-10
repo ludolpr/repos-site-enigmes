@@ -1,0 +1,52 @@
+
+// // // // // // // // // // // // // // //
+//          Le Switch                     //
+// // // // // // // // // // // // // // //
+
+let job = "maçon";
+
+switch (job) {
+case "maçon" :
+     console.log("il s'occupe des murs");
+    break;
+case "plombier": 
+ console.log("il s'occupe de l'eau");
+    break;
+case "électricien":
+    console.log("il s'occupe de l'éléctricité");
+
+default: 
+console.log("il ne travail pas dans le bâtiment");
+break;
+}
+
+// // // // // // // // // //
+//          Jours          //
+// // // // // // // // // //
+
+let day;
+switch(new Date().getDay()){
+  case 0:
+  day = "Dimanche"
+  break;
+  case 1:
+  day = "Lundi"
+  break;
+  case 2:
+  day = "Mardi"
+  break;
+  case 3:
+  day = "Mercredi"
+  break;
+  case 4:
+  day = "Jeudi"
+  break;
+  case 5:
+  day = "Vendredi"
+  break;
+  case 0:
+  day = "Samedi"
+  break;
+}
+
+console.log(`Aujourd'hui on est le ${day}`);

@@ -1,0 +1,59 @@
+
+// // // // // // // // // // // // // // //
+//          Les Funcions                  //
+// // // // // // // // // // // // // // //
+
+// // // // // // // // // //
+//        Déclaration      //
+// // // // // // // // // //
+let hello = function () {
+    console.log("salut");
+}
+
+console.log(hello());
+
+let superficie = function (largeur, hauteur) {
+    return `la surface est de ${largeur * hauteur} m2.`
+}
+console.log(superficie(8,10));
+
+let calculPerimètre = function(rayon){
+  let Perimètre = 2 * Math.PI * rayon
+  return Perimètre
+}
+console.log(calculPerimètre(5));
+
+// // // // // // // // // //
+//        IIFE             //
+// // // // // // // // // //
+
+(function () {
+  console.log("je suis une IIFE");
+})();
+
+(
+  function(name) {
+    console.log(`hello ${name}`);
+  }
+
+
+)("Alouette");
+
+// // // // // // // // // // // // // // //
+//          ECMAScript 2015               //
+//             ( ES6 )                    //
+// // // // // // // // // // // // // // //
+
+// // // // // // // // // //
+//        Methode          //
+// // // // // // // // // //
+
+const Member = {
+  add:function(){
+    console.log("ajouter une personne");
+  },
+  edit:function(player){
+    console.log(`la fiche du joueur ${player} est modifié`);
+  }
+}
+console.log(Member.edit("Carl"));

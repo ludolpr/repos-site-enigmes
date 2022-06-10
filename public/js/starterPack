@@ -3,6 +3,7 @@
 // let = (modifiable)                                        //
 // const = constente (on ne peut pas modifier sa valeur)     //
 // // // // // // // // // // // // // // // // // // // // // 
+
 var lastname = "Leprout" ;
 console.log(lastname);
 
@@ -151,3 +152,11 @@ console.log(z);
 
 const zz = 3 + 5 + "Breton"
 console.log(zz);
+
+<=      --  inférieur où égale
+=>      --  supérieur où égale
+==      --  égale 
++=      --  le chiffre que tu veut 
+===     --  stritement egale 
+-=      --  soustraction
+--      --   
