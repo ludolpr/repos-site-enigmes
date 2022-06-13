@@ -1,22 +1,7 @@
 
 
 // Exercice 9 :
-
-// var num;
-// let tableau = [1,3,5,7,9,11,13,15,17,19]
-
-// getRandomInt(20)
-
-// function getRandomInt(max){
-//     num = Math.floor(Math.random() * max);
-// }
-// if (tableau.includes(num)){
-//     console.log("c'est impaire");
-// } else {
-//     console.log("c'est paire");
-// }
-
-// Exercice 9 suite:
+    
 var num;
 let paire = [2,4,6,8,10,12,14,16,18,20]
 let impaire = [1,3,5,7,9,11,13,15,17,19]
@@ -57,31 +42,3 @@ for(i=0; i<3; i++){
     
 }
 
-
-
-
-
-
-// console.log(num);
-
-// function getRandomInt(max) {
-
-//     num = Math.floor(Math.random() * max);
-// }
-   
-
-
-// for (let i = 0; i < 4; i++) {
-//     if (player[i] === "Pitivier") {
-//       console.log(`${player[i]}: j'ai glissé chef !`);
-//     }
-//   }
-
-/*
-if (getRandomInt(num === paire)) {
-    console.log("le paire c'est ok !!");
-}else {
-    getRandomInt(paire == getRandomInt(impaire+1))
-    console.log("les deux impaire aussi !!");
-}
-console.log(num); */
